@@ -14,7 +14,7 @@ function App() {
                     <AuthProvider>
                          <Switch>
                               <Route path="/chats" component={Chats} />
-                              <Route path="/" component={Login} />
+                              <Route path="/messages" component={Login} />
                          </Switch>
                     </AuthProvider>
                </Router>
