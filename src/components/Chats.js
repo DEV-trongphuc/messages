@@ -12,7 +12,7 @@ const Chats = () => {
 
      const handleLogout = async () => {
           await auth.signOut();
-          history.push("/");
+          history.push("/messages");
      };
      const getFile = async (url) => {
           const response = await fetch(url);
@@ -21,7 +21,7 @@ const Chats = () => {
      };
      useEffect(() => {
           if (!user) {
-               history.push("/");
+               history.push("/messages");
                return;
           }
           axios.get("https://api.chatengine.io/users/me", {
@@ -52,7 +52,7 @@ const Chats = () => {
                     });
                });
      }, [user, history]);
-     if (!user || loading) return "Loading..";
+     if (!user || loading) return "Đợi xíu..";
 
      return (
           <div className="chats-page">
