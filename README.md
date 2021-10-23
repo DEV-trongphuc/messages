@@ -1,6 +1,6 @@
-# Unichat Application
+# Remember Chat
 
-![Chat Application](https://i.ibb.co/GJwyy9m/Bv9-Js3-QLOLY-HD.jpg)
+![image](https://user-images.githubusercontent.com/91412382/138550223-b0046741-4267-4bc4-8021-771383feac39.png)
 
 ## Introduction
 
@@ -12,4 +12,3 @@ Firebase and Chat Engine are greats tools to setup apps fast and easily - great 
 
 ### Bonus - E-mail notifications
 
-If you want to upgrade this chat application even further than what is shown in the video, you can add e-mail notifications. More info on https://chatengine.io/docs/email_notifications.
